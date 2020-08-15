@@ -1,0 +1,19 @@
+digraph tree {
+    "root";
+    "MDP";
+    "H1A";
+    "TX1";
+    "L1A";
+    "H2A";
+    "TX2";
+    "L2A";
+    "L1B";
+    "root" -> "MDP";
+    "root" -> "L1B";
+    "MDP" -> "H1A";
+    "MDP" -> "H2A";
+    "H1A" -> "TX1";
+    "TX1" -> "L1A";
+    "H2A" -> "TX2";
+    "TX2" -> "L2A";
+}

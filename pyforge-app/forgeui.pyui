@@ -1,0 +1,194 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{12, 84}, {442, 445}}",
+        "class" : "TableView",
+        "attributes" : {
+          "flex" : "WHB",
+          "data_source_items" : "Row 1\nRow 2\nRow 3",
+          "name" : "tableview1",
+          "frame" : "{{50, 150}, {200, 200}}",
+          "class" : "TableView",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "uuid" : "DCD3629F-A408-4023-86CE-1AD10682082D",
+          "data_source_font_size" : 18,
+          "data_source_number_of_lines" : 1,
+          "row_height" : 44,
+          "data_source_delete_enabled" : true
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {70, 70}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{100, 200}, {100, 100}}",
+          "image_name" : "iob:ios7_person_outline_256",
+          "class" : "ImageView",
+          "name" : "imageview1",
+          "uuid" : "04984900-7585-4FB4-B36C-747AB8DD3010"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{84, 6}, {205, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "6EF8E789-2364-462C-B9D9-094837BEC2B3",
+          "font_size" : 18,
+          "corner_radius" : 0,
+          "frame" : "{{75, 234}, {150, 32}}",
+          "border_color" : "RGBA(1.000000,1.052632,1.052632,1.000000)",
+          "border_width" : 0,
+          "alignment" : "left",
+          "text" : "Label",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "label1",
+          "flex" : "W"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{400, 44}, {54, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "48922C3A-8987-4D90-A5C1-2587AEB5581A",
+          "font_size" : 15,
+          "corner_radius" : 6,
+          "frame" : "{{110, 234}, {80, 32}}",
+          "border_color" : "RGBA(0.210526,0.485126,1.000000,1.000000)",
+          "border_width" : 1,
+          "title" : "JSON",
+          "action" : "viewJaysonPressed",
+          "font_bold" : false,
+          "class" : "Button",
+          "name" : "button1",
+          "flex" : "L"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{84, 44}, {203, 32}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "action" : "propObjTogglePressed",
+          "flex" : "WR",
+          "segments" : "Objects|Properties",
+          "frame" : "{{170, 286}, {120, 29}}",
+          "class" : "SegmentedControl",
+          "uuid" : "1D719B59-A1B2-409C-8F19-541F3E95C742",
+          "name" : "segmentedcontrol1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{342, 6}, {54, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "L",
+          "border_width" : 1,
+          "action" : "plotPressed",
+          "frame" : "{{190, 284}, {80, 32}}",
+          "title" : "Plot",
+          "uuid" : "A5D5743D-F6DB-4A88-BE33-37DEEF51090C",
+          "class" : "Button",
+          "corner_radius" : 5,
+          "border_color" : "RGBA(0.207843,0.482353,1.000000,1.000000)",
+          "name" : "button2",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{400, 6}, {54, 32}}",
+        "class" : "View",
+        "attributes" : {
+          "flex" : "L",
+          "border_width" : 0,
+          "frame" : "{{180, 250}, {100, 100}}",
+          "class" : "View",
+          "corner_radius" : 5,
+          "uuid" : "4B4497C7-5DC0-4B4C-A136-0CE5781D5A73",
+          "name" : "view1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{342, 44}, {54, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "LB",
+          "border_width" : 1,
+          "action" : "graphPressed",
+          "frame" : "{{190, 284}, {80, 32}}",
+          "title" : "Graph",
+          "uuid" : "F77145D4-0A77-4A5F-B84C-2E3CAA72210E",
+          "class" : "Button",
+          "border_color" : "RGBA(0.207843,0.482353,1.000000,1.000000)",
+          "corner_radius" : 5,
+          "name" : "button3",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{12, 537}, {128, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "RT",
+          "border_width" : 1,
+          "action" : "parseProjectsPressed",
+          "frame" : "{{190, 284}, {80, 32}}",
+          "title" : "Parse Projects",
+          "uuid" : "7941BBF2-C1F2-4B79-8A82-DC35DB722367",
+          "class" : "Button",
+          "corner_radius" : 5,
+          "border_color" : "RGBA(0.207843,0.482353,1.000000,1.000000)",
+          "name" : "button4",
+          "font_size" : 15
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {460, 600}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "myView",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
