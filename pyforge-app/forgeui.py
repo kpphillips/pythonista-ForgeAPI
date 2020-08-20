@@ -53,7 +53,9 @@ def updateView(model, view):
 	#s=model['state']
 	svs=view.subviews
 	ms = model['state']
+	print('----------')
 	print(f'forgeui.py updateView with State: {ms}')	
+	print('----------')
 	for v in svs:		
 		vn = v.name
 		if ms != 'User' and vn == 'view1':
